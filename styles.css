@@ -1,0 +1,16 @@
+/* Change the background color of the main content area */
+.reportview-container .main .block-container {
+    background-color: #e6f7ff;
+}
+
+/* Add some padding and round corners for the sidebar */
+.sidebar .sidebar-content {
+    padding: 1em;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+}
+
+/* Change the color of the title */
+h1 {
+    color: #4a90e2;
+}

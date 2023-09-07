@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.express as px
 from backend import get_data
 
-with open('styles.css') as f:
+with open('style.css') as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 # Add title, text input, slider, selectbox, and subheader
